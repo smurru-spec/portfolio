@@ -1,0 +1,6 @@
+# originali pesanti: il sito usa solo assets/
+img/
+Claude outputs/
+.DS_Store
+*.toe
+*.mov

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sara Murru — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,300;0,400;0,500;0,700;0,800;1,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+<link rel="icon" type="image/png" href="assets/favicon.png" />
+</head>
+<body>
+<div class="page-out" id="pageOut"></div>
+
+<!-- ================= NAV ================= -->
+<a href="#top" class="logo-sm"><svg class="mark" aria-hidden="true" viewBox="0 0 769 768" xmlns:c2pa="http://c2pa.org/manifest"><path fill="currentColor" fill-rule="evenodd" d="M0,0 L192,384 L511,385 L384,638 L321,512 L256,512 L385,767 L608,320 L225,320 L130,130 L384,256 L638,129 L576,256 L640,256 L768,0 L386,191Z"/><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTphNGU1YjQ3NC05ZWU3LTQyYTQtYTQ3YS04NzY4MzUwZWZhMmUAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaPPrAm2LpJ7RHb4VPQ2c8+YAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo0OTUwYjkzMC1iZTEyLTRkZGQtYjIwMC04MDRmNDc3NDc4YmRscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoRAT0wx8xCsq5UtzyGdyJtwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggRSnCeg0zXdbsBECNviuHo42vNpOK45qUf/rOt/y58AmkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaH0+OuoVIbSchRF/QHngEQ0AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIKMyaqMzZXVDQ3IzMv0A3VIGiwMii2NVmd5NfWIdxs+DZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GQE7Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmE0ZTViNDc0LTllZTctNDJhNC1hNDdhLTg3NjgzNTBlZmEyZS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjM4Yzc0YzZiLWY0ODEtNGYyYy1hZmM2LTk5ZmI3ZGRiYzM2YXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBFKcJ6DTNd1uwEQI2+K4ejja82k4rjmpR/+s63/LnwCaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggcEqfW05BJOJDZ2AFYystoqDzLwyvBUeqNQsj4i/Un9uiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgg6NOZGdwFrHLdeJGxH7ucBKMKCl5mGv6ALp01kfX0RD50Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQD0TZnJM+dVmzCJ8ilXElpayPs0CrXIlAM9JMgGm41Il0wW9Qyjt9JERnXsXshSTy4x7ZmNJoHt43mA3z4XsOac=</c2pa:manifest></metadata></svg>Sara Murru</a>
+<nav class="nav">
+  <button class="lang" id="lang" type="button"><span data-l="it">IT</span><span data-l="en">EN</span></button>
+  <button class="toggle" id="toggle" data-i18n-aria="nav.theme" aria-label="Tema giorno o notte" aria-pressed="false">
+    <span class="knob"></span>
+    <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
+    <svg class="moon" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 14.6A8.5 8.5 0 0 1 9.4 3.5a8.5 8.5 0 1 0 11.1 11.1z"/></svg>
+  </button>
+  <a href="#contact" class="pill-o" data-i18n="nav.talk">Parliamone</a>
+</nav>
+
+<!-- ================= HERO ================= -->
+<header data-dark class="hero" id="top">
+  <div class="rows" id="rows"></div>
+  <div class="hero-shade"></div>
+  <div class="hero-foot">
+    <div class="hero-logo"><svg class="mark" aria-hidden="true" viewBox="0 0 769 768" xmlns:c2pa="http://c2pa.org/manifest"><path fill="currentColor" fill-rule="evenodd" d="M0,0 L192,384 L511,385 L384,638 L321,512 L256,512 L385,767 L608,320 L225,320 L130,130 L384,256 L638,129 L576,256 L640,256 L768,0 L386,191Z"/><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTphNGU1YjQ3NC05ZWU3LTQyYTQtYTQ3YS04NzY4MzUwZWZhMmUAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaPPrAm2LpJ7RHb4VPQ2c8+YAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo0OTUwYjkzMC1iZTEyLTRkZGQtYjIwMC04MDRmNDc3NDc4YmRscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoRAT0wx8xCsq5UtzyGdyJtwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggRSnCeg0zXdbsBECNviuHo42vNpOK45qUf/rOt/y58AmkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaH0+OuoVIbSchRF/QHngEQ0AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIKMyaqMzZXVDQ3IzMv0A3VIGiwMii2NVmd5NfWIdxs+DZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GQE7Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmE0ZTViNDc0LTllZTctNDJhNC1hNDdhLTg3NjgzNTBlZmEyZS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjM4Yzc0YzZiLWY0ODEtNGYyYy1hZmM2LTk5ZmI3ZGRiYzM2YXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBFKcJ6DTNd1uwEQI2+K4ejja82k4rjmpR/+s63/LnwCaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggcEqfW05BJOJDZ2AFYystoqDzLwyvBUeqNQsj4i/Un9uiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgg6NOZGdwFrHLdeJGxH7ucBKMKCl5mGv6ALp01kfX0RD50Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQD0TZnJM+dVmzCJ8ilXElpayPs0CrXIlAM9JMgGm41Il0wW9Qyjt9JERnXsXshSTy4x7ZmNJoHt43mA3z4XsOac=</c2pa:manifest></metadata></svg>Sara Murru</div>
+    <div class="hero-line"></div>
+    <div class="hero-tag">Portfolio<span style="font-weight:300">’26</span></div>
+  </div>
+</header>
+
+<!-- ================= TAGLINE ================= -->
+<section class="tagline">
+  <h2 class="rv">
+    <span class="lr"><span data-i18n="tag.l1"></span></span>
+    <span class="lr"><span class="light" data-i18n="tag.l2"></span></span>
+  </h2>
+  <div class="meta mono fade" data-i18n="tag.meta"></div>
+  <p class="fade" data-i18n="tag.p"></p>
+  <a href="#contact" class="btn-dark fade" data-i18n="nav.talk"></a>
+</section>
+
+<!-- ================= WORD WHEEL ================= -->
+<section data-dark class="wheel" id="wheel">
+  <div class="wheel-sticky">
+    <div class="we"><b>SARA</b></div>
+    <div class="wl"><div class="wl-track" id="wlTrack"></div></div>
+  </div>
+</section>
+
+<!-- ================= COUNTER ================= -->
+<section class="counter">
+  <div class="rv">
+    <div class="eyebrow mono" data-i18n="counter.eyebrow"></div>
+    <h2><span class="lr"><span data-i18n="counter.h1"></span></span><span class="lr"><span data-i18n="counter.h2"></span></span></h2>
+  </div>
+  <div class="count-box fade" id="countBox">
+    <div class="count"><span id="count" data-to="0">0</span></div>
+    <div class="mono" data-i18n="counter.mono"></div>
+    <a href="#work" class="pill-line" data-i18n="counter.all"></a>
+  </div>
+</section>
+
+<!-- ================= WORK ================= -->
+<section class="work" id="work">
+  <div class="grid" id="grid"></div>
+  <div class="more"><a href="#work" class="pill-line" data-i18n="counter.all"></a></div>
+</section>
+
+<!-- ================= STUDIO ================= -->
+<section class="studio" id="studio">
+  <div class="rv">
+    <div class="eyebrow mono" data-i18n="studio.eyebrow"></div>
+    <h2>
+      <span class="lr"><span data-i18n="studio.l1"></span></span>
+      <span class="lr"><span data-i18n="studio.l2"></span></span>
+      <span class="lr"><span data-i18n="studio.l3"></span></span>
+      <span class="lr"><span data-i18n="studio.l4"></span></span>
+    </h2>
+    <div class="byline mono fade"><i></i> <span data-i18n="studio.byline"></span></div>
+    <p class="fade" data-i18n="studio.p1"></p>
+    <p class="fade" data-i18n="studio.p2"></p>
+  </div>
+  <div class="par"><img src="assets/profilo/sara-mare.jpg" alt="Sara Murru" style="object-position:38% 50%" /></div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="about">
+  <div class="par"><img src="assets/profilo/sara-ied.jpg" alt="Sara Murru" /></div>
+  <div class="rv">
+    <h2><span class="lr"><span data-i18n="about.h"></span></span></h2>
+    <p class="fade" data-i18n="about.p1"></p>
+    <p class="fade" data-i18n="about.p2"></p>
+    <div class="tools fade"><span class="mono" data-i18n="about.tools"></span><ul><li>Figma</li><li>Adobe CC</li><li>Illustrator</li><li>InDesign</li><li>After Effects</li><li>DaVinci Resolve</li><li>Blender</li><li>Unity</li><li>TouchDesigner</li><li>GameMaker</li><li>VS Code</li></ul></div>
+    <a href="#contact" class="btn-dark fade" data-i18n="nav.talk"></a>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="services" id="services">
+  <div class="rv">
+    <div class="eyebrow mono" data-i18n="svc.eyebrow"></div>
+    <h2><span class="lr"><span data-i18n="svc.h1"></span></span><span class="lr"><span data-i18n="svc.h2"></span></span></h2>
+  </div>
+  <div id="svc"></div>
+  <a href="#contact" class="cta fade">
+    <span class="mono" data-i18n="svc.ctaMono"></span>
+    <span class="row2"><span class="big" data-i18n="svc.cta"></span><em>→</em></span>
+  </a>
+</section>
+<div class="preview" id="preview"><img id="previewImg" alt="" /></div>
+
+<!-- ================= WISH + FOOTER ================= -->
+<section data-dark class="wish rv" id="contact">
+  <div class="mono" data-i18n="contact.eyebrow"></div>
+  <h2><span class="lr"><span data-i18n="contact.h1"></span></span><span class="lr"><span data-i18n="contact.h2"></span></span></h2>
+</section>
+<footer data-dark>
+  <div class="f-top">
+    <form id="contactForm">
+      <input type="text" name="name" data-i18n-ph="form.name" placeholder="" required />
+      <input type="email" name="email" data-i18n-ph="form.email" placeholder="" required />
+      <input type="text" name="subject" data-i18n-ph="form.subject" placeholder="" />
+      <textarea name="message" rows="4" data-i18n-ph="form.message" placeholder=""></textarea>
+      <button type="submit" data-i18n="form.send"></button>
+    </form>
+    <div class="contacts">
+      <a href="mailto:saramurru.design@gmail.com">saramurru.design@gmail.com <span data-i18n="c.email"></span></a>
+      <a href="tel:+393452141641">+39 345 214 1641 <span data-i18n="c.phone"></span></a>
+      <a href="https://www.instagram.com/_murrusara_/" target="_blank" rel="noopener">@_murrusara_ <span data-i18n="c.ig"></span></a>
+      <div><span data-i18n="c.place" style="color:inherit"></span> <span data-i18n="c.placeLabel"></span></div>
+    </div>
+  </div>
+  <div class="f-cols">
+    <div><h4><i data-i18n="foot.work"></i></h4><span class="mono" data-i18n="foot.workSub"></span></div>
+    <div><h4 data-i18n="foot.about"></h4><span class="mono">Sara Murru</span></div>
+    <div><h4 data-i18n="foot.do"></h4><span class="mono" data-i18n="foot.doSub"></span></div>
+  </div>
+  <div class="mega">
+    <div class="mega-word" id="megaWord"></div>
+    <div class="mega-sub" id="megaSub">portfolio</div>
+  </div>
+  <div class="f-bottom mono">
+    <span>© 2026 Sara Murru</span>
+    <span data-i18n="foot.motto"></span>
+    <a href="#top" data-i18n="foot.top"></a>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="i18n.js"></script>
+<script src="projects.js"></script>
+<script>
+const SERVICES = [
+  {t:"UX/UI Design",
+   d:{it:"Interfacce chiare e piacevoli da usare: ricerca, wireframe, prototipi e design system in Figma.",
+      en:"Clear interfaces that are a pleasure to use: research, wireframes, prototypes and design systems in Figma."}, img:A("coca-cola/app.jpg")},
+  {t:{it:"Motion e video",en:"Motion & Video"},
+   d:{it:"Dalle riprese al montaggio: video di danza, performance e racconti visivi, più animazioni e titoli con After Effects e DaVinci Resolve.",
+      en:"From shooting to editing: dance videos, performances and visual stories, plus animation and titles with After Effects and DaVinci Resolve."}, img:A("princess/still-2.jpg")},
+  {t:{it:"Interattivo e immersivo",en:"Interactive & Immersive"},
+   d:{it:"Installazioni ed esperienze interattive con TouchDesigner, Unity e Blender: spazi che reagiscono alle persone.",
+      en:"Interactive installations and experiences with TouchDesigner, Unity and Blender: spaces that react to people."}, img:A("touchdesigner/webcam-3.jpg")},
+  {t:{it:"Grafica",en:"Graphic Design"},
+   d:{it:"Copertine di album, poster e identità visive: grafica curata nel dettaglio con Illustrator, InDesign e Photoshop.",
+      en:"Album covers, posters and visual identities: graphic design crafted down to the detail with Illustrator, InDesign and Photoshop."}, img:A("copertine/cover-2.jpg")},
+  {t:"Web Design",
+   d:{it:"Siti curati nel dettaglio, dal design in Figma al codice in VS Code, con animazioni e interazioni su misura.",
+      en:"Websites crafted in every detail, from design in Figma to code in VS Code, with custom animations and interactions."}, img:A("ostia-academy/sito-home.jpg")},
+];
+
+/* testi nella lingua scelta */
+document.title = t("meta.title");
+applyI18n();
+initLang();
+
+/* Tessere del mosaico: i lavori veri di Sara, in ordine casuale senza ripetizioni vicine */
+let pool=[];
+function tileContent(){
+  if(!pool.length) pool=[...MOSAIC].sort(()=>Math.random()-.5);
+  return `<img src="${pool.pop()}" alt="" decoding="async">`;
+}
+
+/* ---------- Smooth scroll (Lenis, se disponibile) ---------- */
+let lenis = null;
+if (window.Lenis){
+  lenis = new Lenis({lerp:.09, smoothWheel:true});
+  document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener("click",e=>{
+    const t=document.querySelector(a.getAttribute("href")); if(!t) return;
+    e.preventDefault(); lenis.scrollTo(t);
+  }));
+}
+
+/* =========================================================
+   HERO: 3 file che scorrono a sinistra all'infinito
+   + tessere che cambiano immagine a caso
+   ========================================================= */
+const rowsEl = document.getElementById("rows");
+const RATIOS = [.78,1,1.32,.78,1.1,.9,1.32];
+const rows = [];
+function buildRows(){
+  rowsEl.innerHTML = ""; rows.length = 0;
+  const rowH = (rowsEl.clientHeight-24)/3;
+  for(let r=0;r<3;r++){
+    const row = document.createElement("div"); row.className="row";
+    let w = 0; const tiles=[];
+    while(w < innerWidth*1.15){
+      const ratio = RATIOS[(r*3+tiles.length)%RATIOS.length];
+      const t = document.createElement("div"); t.className="tile";
+      t.style.width = (rowH*ratio)+"px";
+      t.innerHTML = `<div class="layer">${tileContent()}</div>`;
+      tiles.push(t); w += rowH*ratio+6;
+    }
+    tiles.forEach(t=>row.appendChild(t));
+    tiles.forEach(t=>row.appendChild(t.cloneNode(true)));   // copia per il loop infinito
+    rowsEl.appendChild(row);
+    rows.push({el:row, x:-Math.random()*w*.5, half:w});
+  }
+}
+buildRows();
+let rT; addEventListener("resize",()=>{clearTimeout(rT);rT=setTimeout(buildRows,250)});
+
+/* ogni ~1.1s una tessera visibile fa crossfade su una nuova immagine */
+setInterval(()=>{
+  const tiles = rowsEl.querySelectorAll(".tile");
+  const t = tiles[Math.floor(Math.random()*tiles.length)];
+  const r = t.getBoundingClientRect(); if(r.right<0||r.left>innerWidth) return;
+  const nl = document.createElement("div"); nl.className="layer out"; nl.innerHTML=tileContent();
+  t.appendChild(nl);
+  const img = nl.querySelector("img");
+  const go = ()=>{ requestAnimationFrame(()=>nl.classList.remove("out")); setTimeout(()=>{[...t.children].slice(0,-1).forEach(c=>c.remove())},1100); };
+  img.complete ? go() : (img.onload = go);
+},1100);
+
+/* ---------- Word wheel ---------- */
+const track = document.getElementById("wlTrack");
+track.innerHTML = PHRASES[LANG].map(p=>`<div class="wl-item">${p}</div>`).join("");
+const items = [...track.children];
+const wheel = document.getElementById("wheel");
+let wheelPos = 0;
+
+/* ---------- Work grid ---------- */
+document.getElementById("grid").innerHTML = PROJECTS.map(p=>`
+  <a class="card" href="project.html?p=${p.slug}">
+    <div class="thumb">${p.loop?`<video src="${p.loop}" poster="${p.card}" muted loop playsinline autoplay preload="metadata"></video>`:`<img src="${p.card}" alt="${L(p.name)}" loading="lazy">`}</div>
+    <div class="meta"><h3>${L(p.name)}</h3><span class="mono">${L(p.tags)[0]}</span><span class="mono">${L(p.tags)[1]}</span></div>
+  </a>`).join("");
+document.querySelectorAll(".card").forEach((c,i)=>{c.querySelector(".thumb").style.transitionDelay=(i%3)*.09+"s"});
+
+/* ---------- Services: accordion + anteprima che segue il mouse ---------- */
+const svc = document.getElementById("svc"), preview = document.getElementById("preview"), pImg = document.getElementById("previewImg");
+svc.innerHTML = SERVICES.map((s,i)=>`
+  <div class="svc-row" data-i="${i}"><h3>${L(s.t)}</h3><span class="arr">→</span></div>
+  <div class="svc-body"><p>${L(s.d)}</p></div>`).join("");
+SERVICES.forEach(s=>{const i=new Image();i.src=s.img});
+svc.addEventListener("click",e=>{
+  const r=e.target.closest(".svc-row"); if(!r) return;
+  const open=!r.classList.contains("open");
+  svc.querySelectorAll(".svc-row").forEach(x=>{x.classList.remove("open");x.nextElementSibling.style.maxHeight=0});
+  if(open){r.classList.add("open");r.nextElementSibling.style.maxHeight=r.nextElementSibling.scrollHeight+"px"}
+});
+svc.addEventListener("mouseover",e=>{
+  const r=e.target.closest(".svc-row"); if(!r) return;
+  pImg.src=SERVICES[r.dataset.i].img; preview.classList.add("show");
+});
+svc.addEventListener("mouseleave",()=>preview.classList.remove("show"));
+let mx=innerWidth/2,my=innerHeight/2,px=mx,py=my;
+addEventListener("mousemove",e=>{mx=e.clientX;my=e.clientY});
+
+/* ---------- Reveal + counter ---------- */
+const io = new IntersectionObserver(es=>es.forEach(e=>{
+  if(!e.isIntersecting) return;
+  e.target.classList.add("in"); io.unobserve(e.target);
+  if(e.target.id==="countBox"){
+    const c=document.getElementById("count"),to=PROJECTS.length,t0=performance.now();
+    (function step(t){const k=Math.min((t-t0)/1600,1);c.textContent=Math.round(to*(1-Math.pow(1-k,4)));if(k<1)requestAnimationFrame(step)})(t0);
+  }
+}),{threshold:.15, rootMargin:"0px 0px -6% 0px"});
+document.querySelectorAll(".rv,.fade,.card,#countBox,.mega-sub").forEach(el=>io.observe(el));
+
+/* ---------- Footer: lettere giganti ---------- */
+const megaWord = document.getElementById("megaWord");
+megaWord.innerHTML = [..."Sara Murru"].map(ch=>`<span>${ch}</span>`).join("");
+const megaLetters=[...megaWord.children];
+
+/* =========================================================
+   LOOP PRINCIPALE
+   ========================================================= */
+const pars=[...document.querySelectorAll(".par img")];
+let lastY=scrollY, vel=0;
+function raf(time){
+  if(lenis) lenis.raf(time);
+  const y = scrollY; vel += ((y-lastY) - vel)*.1; lastY=y;
+
+  // mosaico: velocità base + spinta quando scrolli
+  const speed = .45 + Math.min(Math.abs(vel)*.15, 6);
+  rows.forEach(r=>{ r.x -= speed; if(r.x <= -r.half) r.x += r.half; r.el.style.transform=`translate3d(${r.x}px,0,0)`; });
+
+  // ruota di parole
+  const wr = wheel.getBoundingClientRect();
+  const prog = Math.min(Math.max(-wr.top/(wr.height-innerHeight),0),1);
+  wheelPos += (prog*(items.length-1) - wheelPos)*.12;
+  const ih = items[0].offsetHeight;
+  track.style.transform=`translate3d(0,${-ih/2 - wheelPos*ih}px,0)`;
+  items.forEach((it,i)=>{
+    const d=Math.abs(i-wheelPos);
+    it.style.opacity = Math.max(0, 1 - d*.62).toFixed(3);
+    it.style.filter = `blur(${Math.min(d*1.4,4).toFixed(2)}px)`;
+  });
+
+  // parallax immagini
+  pars.forEach(img=>{
+    const r=img.parentElement.getBoundingClientRect();
+    if(r.bottom<0||r.top>innerHeight) return;
+    const p=(r.top+r.height/2-innerHeight/2)/innerHeight;
+    img.style.transform=`translate3d(0,${p*-12}%,0)`;
+  });
+
+  // anteprima servizi
+  px+=(mx-px)*.15; py+=(my-py)*.15;
+  preview.style.left=px+130+"px"; preview.style.top=py+"px";
+
+  // lettere footer: salgono in sequenza
+  const mr=megaWord.getBoundingClientRect();
+  const mp=Math.min(Math.max((innerHeight - mr.top)/(mr.height*1.6),0),1);
+  megaLetters.forEach((l,i)=>{
+    const k=Math.min(Math.max(mp*2.2 - i*.1,0),1);
+    l.style.transform=`translate3d(0,${Math.pow(1-k,3)*100}%,0)`;
+  });
+
+  requestAnimationFrame(raf);
+}
+requestAnimationFrame(raf);
+
+/* ---------- Toggle tema ---------- */
+initTheme();
+
+/* ---------- form contatti: apre l'app mail con il messaggio già scritto ---------- */
+document.getElementById("contactForm").addEventListener("submit",e=>{
+  e.preventDefault();
+  const f=e.target, v=n=>f.elements[n].value.trim();
+  const subject=v("subject")||t("form.defaultSubject");
+  const body=`${v("message")}\n\n— ${v("name")} (${v("email")})`;
+  location.href=`mailto:saramurru.design@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+});
+
+/* ---------- transizione verso la pagina progetto ---------- */
+document.getElementById("grid").addEventListener("click",e=>{
+  const a=e.target.closest("a.card"); if(!a||e.metaKey||e.ctrlKey) return;
+  e.preventDefault(); document.getElementById("pageOut").classList.add("on");
+  setTimeout(()=>location.href=a.getAttribute("href"),650);
+});
+addEventListener("pageshow",e=>{ if(e.persisted) document.getElementById("pageOut").classList.remove("on"); });
+/* arrivando da una pagina progetto con #work, scorri alla griglia */
+if(location.hash){ const t=document.querySelector(location.hash); if(t) setTimeout(()=>lenis?lenis.scrollTo(t,{immediate:true}):t.scrollIntoView(),50); }
+</script>
+</body>
+</html>
