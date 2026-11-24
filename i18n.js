@@ -34,7 +34,7 @@ const T = {
 
     "about.h":"Ciao, sono <b>Sara</b> :)",
     "about.p1":"Ho 23 anni e vivo a Roma. Al design ci sono arrivata per una strada non proprio dritta: prima il diploma da geometra, poi tre anni di sociologia, e alla fine il Media Design allo IED, dove oggi sono al secondo anno. Dal geometra mi è rimasta la precisione, dalla sociologia la curiosità per le persone. Lavoro su UX/UI, video, grafica, web e visual interattivi con TouchDesigner, e quello che mi spinge è la voglia di creare <strong>quel dettaglio che ti fa distinguere da tutti gli altri</strong>.",
-    "about.p2":"Fuori dallo schermo pratico taekwondo e ho una palestra tutta mia, dove insegno. Il resto del tempo è per lo sport, la musica, i viaggi e gli animali, non per forza in quest'ordine. Sono aperta a stage, collaborazioni e progetti freelance. <strong>Se hai un'idea, parliamone.</strong>",
+    "about.p2":"Fuori dallo schermo pratico taekwondo e ho una palestra tutta mia, dove insegno. Il resto del tempo è per la musica, i viaggi, gli animali e lo sport, non per forza in quest'ordine. Sono aperta a stage, collaborazioni e progetti freelance. <strong>Se hai un'idea, parliamone.</strong>",
     "about.tools":"Strumenti",
 
     "svc.eyebrow":"Cosa faccio",
@@ -99,7 +99,7 @@ const T = {
 
     "about.h":"Hi, I'm <b>Sara</b> :)",
     "about.p1":"I'm 23 and I live in Rome. I got to design by a not-so-straight road: first a surveyor's diploma, then three years of sociology, and finally Media Design at IED, where I'm now in my second year. From surveying I kept the precision, from sociology the curiosity about people. I work on UX/UI, video, graphic design, web and interactive visuals with TouchDesigner, and what drives me is the urge to create <strong>that one detail that sets you apart from everyone else</strong>.",
-    "about.p2":"Away from the screen I practise taekwondo and run my own gym, where I teach. The rest of my time goes to sport, music, travel and animals, not necessarily in that order. I'm open to internships, collaborations and freelance projects. <strong>Got an idea? Let's talk.</strong>",
+    "about.p2":"Away from the screen I practise taekwondo and run my own gym, where I teach. The rest of my time goes to music, travel, animals and sport, not necessarily in that order. I'm open to internships, collaborations and freelance projects. <strong>Got an idea? Let's talk.</strong>",
     "about.tools":"Tools",
 
     "svc.eyebrow":"What I do",
