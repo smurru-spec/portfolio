@@ -15,7 +15,7 @@ const T = {
     "tag.l1":"Ogni idea nasconde un dettaglio.",
     "tag.l2":"Io lo faccio <b>emergere</b>.",
     "tag.meta":"UX/UI · Video · Grafica · Interattivo · Web — IED Roma — 2026",
-    "tag.p":"Sono Sara Murru, studentessa di Media Design allo IED di Roma. Progetto interfacce, video, grafica, web e installazioni interattive, cercando sempre il dettaglio che fa la differenza.",
+    "tag.p":"Sono Sara Murru, studentessa di Media Design allo IED di Roma. Progetto interfacce, video, grafica, web e visual interattivi, cercando sempre il dettaglio che fa la differenza.",
 
     "counter.eyebrow":"Lavori selezionati",
     "counter.h1":"Progetti che ho",
@@ -30,10 +30,10 @@ const T = {
     "studio.l4":"<u>distinguere</u>",
     "studio.byline":"Media Design · IED Roma · 2° anno",
     "studio.p1":"Mi muovo tra schermi, spazi e movimento: interfacce che si usano con piacere, video e animazioni che raccontano, siti che reagiscono a chi li visita.",
-    "studio.p2":"Mi ispirano le installazioni immersive e interattive, i luoghi in cui le persone non guardano soltanto ma partecipano.",
+    "studio.p2":"Mi ispirano le installazioni immersive e interattive, i luoghi in cui le persone non guardano soltanto ma partecipano. Il mio obiettivo è arrivare a costruirne una.",
 
     "about.h":"Ciao, sono <b>Sara</b> :)",
-    "about.p1":"Ho 23 anni e vivo a Roma. Al design ci sono arrivata per una strada non proprio dritta: prima il diploma da geometra, poi tre anni di sociologia, e alla fine il Media Design allo IED, dove oggi sono al secondo anno. Dal geometra mi è rimasta la precisione, dalla sociologia la curiosità per le persone. Lavoro su UX/UI, video, grafica, web e installazioni con TouchDesigner, e quello che mi spinge è la voglia di creare <strong>quel dettaglio che ti fa distinguere da tutti gli altri</strong>.",
+    "about.p1":"Ho 23 anni e vivo a Roma. Al design ci sono arrivata per una strada non proprio dritta: prima il diploma da geometra, poi tre anni di sociologia, e alla fine il Media Design allo IED, dove oggi sono al secondo anno. Dal geometra mi è rimasta la precisione, dalla sociologia la curiosità per le persone. Lavoro su UX/UI, video, grafica, web e visual interattivi con TouchDesigner, e quello che mi spinge è la voglia di creare <strong>quel dettaglio che ti fa distinguere da tutti gli altri</strong>.",
     "about.p2":"Fuori dallo schermo pratico taekwondo e ho una palestra tutta mia, dove insegno. Il resto del tempo è per la musica, i viaggi, gli animali e il cibo, non per forza in quest'ordine. Sono aperta a stage, collaborazioni e progetti freelance. <strong>Se hai un'idea, parliamone.</strong>",
     "about.tools":"Strumenti",
 
@@ -80,7 +80,7 @@ const T = {
     "tag.l1":"Every idea hides a detail.",
     "tag.l2":"I make it <b>stand out</b>.",
     "tag.meta":"UX/UI · Video · Graphic · Interactive · Web — IED Rome — 2026",
-    "tag.p":"I'm Sara Murru, a Media Design student at IED Rome. I design interfaces, video, graphics, websites and interactive installations, always looking for the detail that makes the difference.",
+    "tag.p":"I'm Sara Murru, a Media Design student at IED Rome. I design interfaces, video, graphics, websites and interactive visuals, always looking for the detail that makes the difference.",
 
     "counter.eyebrow":"Selected work",
     "counter.h1":"Projects I’ve",
@@ -95,10 +95,10 @@ const T = {
     "studio.l4":"<u>stand out</u>",
     "studio.byline":"Media Design · IED Rome · 2nd year",
     "studio.p1":"I move between screens, spaces and motion: interfaces that are a pleasure to use, videos and animations that tell stories, websites that react to whoever visits them.",
-    "studio.p2":"I'm inspired by immersive and interactive installations: places where people don't just watch, they take part.",
+    "studio.p2":"I'm inspired by immersive and interactive installations: places where people don't just watch, they take part. My goal is to build one someday.",
 
     "about.h":"Hi, I'm <b>Sara</b> :)",
-    "about.p1":"I'm 23 and I live in Rome. I got to design by a not-so-straight road: first a surveyor's diploma, then three years of sociology, and finally Media Design at IED, where I'm now in my second year. From surveying I kept the precision, from sociology the curiosity about people. I work on UX/UI, video, graphic design, web and installations with TouchDesigner, and what drives me is the urge to create <strong>that one detail that sets you apart from everyone else</strong>.",
+    "about.p1":"I'm 23 and I live in Rome. I got to design by a not-so-straight road: first a surveyor's diploma, then three years of sociology, and finally Media Design at IED, where I'm now in my second year. From surveying I kept the precision, from sociology the curiosity about people. I work on UX/UI, video, graphic design, web and interactive visuals with TouchDesigner, and what drives me is the urge to create <strong>that one detail that sets you apart from everyone else</strong>.",
     "about.p2":"Away from the screen I practise taekwondo and run my own gym, where I teach. The rest of my time goes to music, travel, animals and food, not necessarily in that order. I'm open to internships, collaborations and freelance projects. <strong>Got an idea? Let's talk.</strong>",
     "about.tools":"Tools",
 
@@ -137,9 +137,9 @@ const T = {
 
 /* frasi della ruota sotto "SARA" */
 const PHRASES = {
-  it:["progetta interfacce che piacciono,","mette le idee in movimento,","disegna copertine di album,","costruisce installazioni immersive,",
+  it:["progetta interfacce che piacciono,","mette le idee in movimento,","disegna copertine di album,","sogna installazioni immersive,",
       "programma siti interattivi,","fa reagire gli spazi a te,","insegue il più piccolo dettaglio,","trasforma idee in esperienze,","ti fa distinguere."],
-  en:["designs interfaces people love,","puts ideas in motion,","designs album covers,","builds immersive installations,",
+  en:["designs interfaces people love,","puts ideas in motion,","designs album covers,","dreams of immersive installations,",
       "codes interactive websites,","makes spaces react to you,","chases the smallest detail,","turns ideas into experiences,","makes you stand out."]
 };
 
