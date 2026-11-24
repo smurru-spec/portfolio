@@ -33,7 +33,7 @@ const T = {
     "studio.p2":"Mi ispirano le installazioni immersive e interattive, i luoghi in cui le persone non guardano soltanto ma partecipano.",
 
     "about.h":"Ciao, sono <b>Sara</b> :)",
-    "about.p1":"Vivo a Roma e frequento il secondo anno di Media Design allo IED. Lavoro su UX/UI, video (dalle riprese al montaggio), grafica e copertine di album, web e installazioni con TouchDesigner. Quello che mi spinge è la voglia di creare <strong>quel dettaglio che ti fa distinguere da tutti gli altri</strong>.",
+    "about.p1":"Ho 23 anni, vivo a Roma e frequento il secondo anno di Media Design allo IED. Lavoro su UX/UI, video (dalle riprese al montaggio), grafica e copertine di album, web e installazioni con TouchDesigner. Quello che mi spinge è la voglia di creare <strong>quel dettaglio che ti fa distinguere da tutti gli altri</strong>.",
     "about.p2":"Sono aperta a stage, collaborazioni e progetti freelance. <strong>Se hai un'idea, parliamone.</strong>",
     "about.tools":"Strumenti",
 
@@ -98,7 +98,7 @@ const T = {
     "studio.p2":"I'm inspired by immersive and interactive installations: places where people don't just watch, they take part.",
 
     "about.h":"Hi, I'm <b>Sara</b> :)",
-    "about.p1":"I live in Rome and I'm in my second year of Media Design at IED. I work on UX/UI, video (from shooting to editing), graphic design and album covers, web and installations with TouchDesigner. What drives me is the urge to create <strong>that one detail that sets you apart from everyone else</strong>.",
+    "about.p1":"I'm 23, I live in Rome and I'm in my second year of Media Design at IED. I work on UX/UI, video (from shooting to editing), graphic design and album covers, web and installations with TouchDesigner. What drives me is the urge to create <strong>that one detail that sets you apart from everyone else</strong>.",
     "about.p2":"I'm open to internships, collaborations and freelance projects. <strong>Got an idea? Let's talk.</strong>",
     "about.tools":"Tools",
 

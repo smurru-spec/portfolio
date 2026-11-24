@@ -255,3 +255,18 @@ body.night .lang span.on{background:#f4f2ee;color:#07112b}
   .hero-logo{font-size:15vw}
   .hero-tag{width:100%}
 }
+
+/* ---------- MOBILE: ruota di frasi e footer ---------- */
+@media (max-width:900px){
+  .wheel{height:340vh}
+  .wheel-sticky{flex-direction:column;align-items:flex-start;justify-content:center;padding-top:0}
+  .we{position:absolute;top:calc(50% - 2.6em);left:var(--pad);font-size:clamp(40px,11vw,80px)}
+  .wl{width:100%;flex:none;height:100%;position:absolute;inset:0;left:var(--pad);right:var(--pad)}
+  .wl-item{font-size:clamp(16px,4.6vw,34px)}
+}
+@media (max-width:560px){
+  .mega{flex-wrap:wrap;row-gap:6px}
+  .mega-word{font-size:16.5vw}
+  .mega-sub{margin-bottom:0}
+  .f-bottom{flex-wrap:wrap}
+}
