@@ -33,8 +33,8 @@ const T = {
     "studio.p2":"Mi ispirano le installazioni immersive e interattive, i luoghi in cui le persone non guardano soltanto ma partecipano.",
 
     "about.h":"Ciao, sono <b>Sara</b> :)",
-    "about.p1":"Ho 23 anni, vivo a Roma e frequento il secondo anno di Media Design allo IED. Lavoro su UX/UI, video (dalle riprese al montaggio), grafica e copertine di album, web e installazioni con TouchDesigner. Quello che mi spinge è la voglia di creare <strong>quel dettaglio che ti fa distinguere da tutti gli altri</strong>.",
-    "about.p2":"Sono aperta a stage, collaborazioni e progetti freelance. <strong>Se hai un'idea, parliamone.</strong>",
+    "about.p1":"Ho 23 anni e vivo a Roma. Al design ci sono arrivata per una strada non proprio dritta: prima il diploma da geometra, poi tre anni di sociologia, e alla fine il Media Design allo IED, dove oggi sono al secondo anno. Dal geometra mi è rimasta la precisione, dalla sociologia la curiosità per le persone. Lavoro su UX/UI, video, grafica, web e installazioni con TouchDesigner, e quello che mi spinge è la voglia di creare <strong>quel dettaglio che ti fa distinguere da tutti gli altri</strong>.",
+    "about.p2":"Fuori dallo schermo pratico taekwondo e ho una palestra tutta mia, dove insegno. Il resto del tempo è per la musica, i viaggi, gli animali e il cibo, non per forza in quest'ordine. Sono aperta a stage, collaborazioni e progetti freelance. <strong>Se hai un'idea, parliamone.</strong>",
     "about.tools":"Strumenti",
 
     "svc.eyebrow":"Cosa faccio",
@@ -98,8 +98,8 @@ const T = {
     "studio.p2":"I'm inspired by immersive and interactive installations: places where people don't just watch, they take part.",
 
     "about.h":"Hi, I'm <b>Sara</b> :)",
-    "about.p1":"I'm 23, I live in Rome and I'm in my second year of Media Design at IED. I work on UX/UI, video (from shooting to editing), graphic design and album covers, web and installations with TouchDesigner. What drives me is the urge to create <strong>that one detail that sets you apart from everyone else</strong>.",
-    "about.p2":"I'm open to internships, collaborations and freelance projects. <strong>Got an idea? Let's talk.</strong>",
+    "about.p1":"I'm 23 and I live in Rome. I got to design by a not-so-straight road: first a surveyor's diploma, then three years of sociology, and finally Media Design at IED, where I'm now in my second year. From surveying I kept the precision, from sociology the curiosity about people. I work on UX/UI, video, graphic design, web and installations with TouchDesigner, and what drives me is the urge to create <strong>that one detail that sets you apart from everyone else</strong>.",
+    "about.p2":"Away from the screen I practise taekwondo and run my own gym, where I teach. The rest of my time goes to music, travel, animals and food, not necessarily in that order. I'm open to internships, collaborations and freelance projects. <strong>Got an idea? Let's talk.</strong>",
     "about.tools":"Tools",
 
     "svc.eyebrow":"What I do",
